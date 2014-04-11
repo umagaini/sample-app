@@ -13,7 +13,7 @@ Bundler.require(:default, Rails.env)
 
 module SampleApp
   class Application < Rails::Application
-    # Settings in config/environments/* take precedence over those specified here.
+    # Settings in config/environments/* take precedence over those specified here.cofig.active_record.whitelist_attributes = true
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
